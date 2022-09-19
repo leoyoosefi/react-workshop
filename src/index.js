@@ -1,6 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ReactDOM from 'react-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Main from './DataTable';
 
-import ReactDom from 'react-dom';
-
-
-ReactDom.render(<h1>Hello There!</h1> ,document.getElementById('root') )
+ReactDOM.render( <Main/>, document.getElementById('root'));
