@@ -1,15 +1,17 @@
-const TableHeader = () =>{
-    return (
-        <thead>
-        <tr>
-            <th scope="col">Id</th>
-            <th scope="col">First Name</th>
-            <th scope="col">Last Name</th>
-            <th scope="col">Age</th>
-            <th scope="col">Action</th>
-        </tr>
-        </thead>
-    )
-}
+import React from "react";
 
-export default TableHeader
+const TableHead = () => {
+  return (
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>first Name</th>
+        <th>last Name</th>
+        <th>Age</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+  );
+};
+
+export default TableHead;

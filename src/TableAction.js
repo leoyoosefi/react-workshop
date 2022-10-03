@@ -1,9 +1,16 @@
-const TableAction =(props)=>{
-    return (
-        
-        <button className="btn btn-primary"   >Details </button>
-        
-    )
-}
+import React from "react";
 
-export default TableAction
+const TableAction = (props) => {
+  return (
+    <div>
+      <button
+        className="btn btn-primary"
+        onClick={() => props.onClick(props.studentId)}
+      >
+        Details
+      </button>
+    </div>
+  );
+};
+
+export default TableAction;
