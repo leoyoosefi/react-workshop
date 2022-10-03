@@ -8,14 +8,14 @@ const DataTable = () => {
       id: 0,
       firstName: "Student1",
       lastName: "Studentsson1",
-      age: 44,
+      age: 22,
       country: "Sweden",
     },
     {
       id: 1,
       firstName: "Student2",
       lastName: "Studentsson2",
-      age: 14,
+      age: 20,
       country: "Sweden",
     },
   ];
